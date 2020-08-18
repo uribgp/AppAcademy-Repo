@@ -8,11 +8,11 @@ const OwnersList = props =>
     <ul>
       {props.owners.map(owner => (
         <li key={owner.id}>
-          <OwnerLink
+          <OwnerLink>
             href={owner.href}
             firstName={owner.firstName}
             lastName={owner.lastName}
-            />
+          </OwnerLink>
         </li>
       ))}
     </ul>
