@@ -1,8 +1,9 @@
+import PetDetailPage from './PetDetailPage'
 import React from 'react';
 
-function App() {
+function App(props) {
   return (
-    <h1>Hello</h1>
+    <PetDetailPage pet={props.pet}></PetDetailPage>
   );
 }
 
