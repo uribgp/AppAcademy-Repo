@@ -2,6 +2,18 @@ import React from 'react';
 import Clock from './Clock.js'
 import Folder from './Folder.js'
 import Weather from './Weather.js'
+import AutoComplete from './Auto';
+
+const names = [
+  'Abba',
+  'Barney',
+  'Barbara',
+  'Jeff',
+  'Jenny',
+  'Sarah',
+  'Sally',
+  'Xander'
+];
 
 const folders = [
   {title: 'one', content: 'I am the first'},
@@ -14,6 +26,7 @@ const Root = () => (
     <Clock></Clock>
     <Folder folders={folders}></Folder>
     <Weather></Weather>
+    <AutoComplete names={names}></AutoComplete>
   </div>
 );
 
