@@ -1,0 +1,6 @@
+.dog {
+    background-image: url('./dog.jpg');
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+}
