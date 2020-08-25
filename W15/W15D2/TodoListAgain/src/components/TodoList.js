@@ -40,7 +40,7 @@ class TodoList extends React.Component {
     return (
       <ul>
         {tasksState.length > 0 
-          ? tasksState.map((task) => <Task key={task.taskId} deleteTask={this.deleteTask} task={task} />)
+          ? tasksState.map((task) => <Task key={task.id} deleteTask={this.deleteTask} task={task} />)
           : null}
       </ul>
     );
